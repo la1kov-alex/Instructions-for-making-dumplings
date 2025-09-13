@@ -57,7 +57,6 @@ export const App = () => {
 									<button
 										className={styles['steps-item-button']}
 										onClick={() => handleStepClick(index)}
-										disabled={isDisabled}
 									>
 										{index + 1}
 									</button>
